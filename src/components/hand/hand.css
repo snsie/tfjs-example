@@ -1,0 +1,66 @@
+#canvas-wrapper {
+  position: relative;
+}
+#scatter-gl-container-left,
+#scatter-gl-container-right {
+  position: relative;
+  float: left;
+}
+.Hand-video {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: auto;
+  height: auto;
+  visibility: hidden;
+}
+.Hand-video {
+  -webkit-transform: scaleX(-1);
+  position: absolute;
+  transform: scaleX(-1);
+  visibility: hidden;
+  width: auto;
+  height: auto;
+}
+canvas {
+  position: absolute;
+  /* top: 0;
+    left: 0;
+   */
+  left: 0;
+  top: 0;
+  /* bottom: 0; */
+}
+
+.Face-div {
+  position: absolute;
+  /* display: flex; */
+  /* flex-grow: 1; */
+  /* left: auto;
+    right: auto; */
+  /* width: 10%;
+    height: 10%; */
+  /* align-items: center;
+    justify-items: center; */
+  /* top: 10; */
+  /* right: auto;
+    bottom: auto; */
+  /* align-items: center;
+    justify-self: center; */
+}
+.Task-div {
+  width: 100%;
+  flex-grow: 1;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  /* top: 25px; */
+
+  /* align-items: center; */
+  /* left: 20px; */
+}
+.Spacing-div {
+  /* width: 100%; */
+  /* display: flex; */
+  /* align-content: center; */
+  /* left: 20px; */
+}

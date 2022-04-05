@@ -1,0 +1,53 @@
+{
+  "name": "tfjs-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mediapipe/hands": "^0.4.1646424915",
+    "@mediapipe/pose": "^0.5.1635988162",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.3",
+    "@tensorflow-models/blazeface": "^0.0.7",
+    "@tensorflow-models/face-landmarks-detection": "^0.0.3",
+    "@tensorflow-models/hand-pose-detection": "^2.0.0",
+    "@tensorflow-models/pose-detection": "^2.0.0",
+    "@tensorflow/tfjs": "^3.15.0",
+    "@tensorflow/tfjs-backend-wasm": "^3.15.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.15.0",
+    "dat.gui": "^0.7.9",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
+    "prettier": "^2.6.2",
+    "react": "^18.0.0",
+    "react-canvas-draw": "^1.2.1",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.0",
+    "scatter-gl": "^0.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
